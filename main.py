@@ -6,7 +6,7 @@ if __name__ == "__main__":
     airline.add_flight(101, "New York - Los Angeles", "08:00", "11:00", 200)
     airline.add_flight(102, "Los Angeles - Chicago", "12:00", "15:00", 150)
 
-    airline.add_customer("John Doe", "AB123456")
+    airline.add_customer("John Kennedie", "AB123456")
     airline.add_customer("Jane Smith", "CD987654")
 
     print(airline.make_reservation(101, "AB123456", 2)) 
